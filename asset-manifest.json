@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/iSchool/static/css/main.f855e6bc.css",
+    "main.js": "/iSchool/static/js/main.db0ea7dc.js",
+    "static/js/488.1f28c428.chunk.js": "/iSchool/static/js/488.1f28c428.chunk.js",
+    "static/media/logo.svg": "/iSchool/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/iSchool/index.html",
+    "main.f855e6bc.css.map": "/iSchool/static/css/main.f855e6bc.css.map",
+    "main.db0ea7dc.js.map": "/iSchool/static/js/main.db0ea7dc.js.map",
+    "488.1f28c428.chunk.js.map": "/iSchool/static/js/488.1f28c428.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.db0ea7dc.js"
+  ]
+}

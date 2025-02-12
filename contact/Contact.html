@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="StyleContact.css" />
+    <script>
+  
+    </script>
+</head>
+
+<body>
+    <header id="header">
+        <ul id="navbar" class="poppins">
+            <li><a class="logo " style="color: #1C56ED;" href="../home/Home.html">iSchool</a></li>
+            <li><a href="../home/Home.html">Home</a></li>
+            <li><a style="color: #1C56ED;" href="../about/About.html">About</a></li>
+            <li><a href="../course/Courses.html">Courses</a></li>
+            <li><a href="../contact/Contact.html">Contact</a></li>
+        </ul>
+        <div class="logout-btn">
+            <a class="logout" href="../user/Login.html">Log Out</a>
+        </div>
+    </header>
+    <div id="content">
+        <div class="poppins">
+            <p class="content-heading">Contacts</p>
+            <p class="content-sub-heading">Get in touch today for us to have the opportunity to serve and support you in
+                achieving your learning goals.</p>
+            <form class="content-form" name="myForm" onsubmit="return validateForm()">
+                <div class="mw-100 d-flex">
+                    <div class="input-name">
+                        <div class="w-50">
+                            <label class="label poppins">Your Name</label><br />
+                            <input type="text" name="Name" class="input"><br /><br />
+                        </div>
+                        <div class="w-50">
+                            <label class="label poppins">Email</label><br />
+                            <input type="text" name="Email" class="input"><br /><br />
+                        </div>
+                    </div>
+                </div>
+                <label class="label poppins">Subject</label><br />
+                <input type="text" name="Subject" class="input1"><br /><br />
+                <label class="label poppins">Message</label><br />
+                <textarea  cols="98.5" rows="3" name="Message" class="input3"></textarea><br /><br /><br />
+                <input type="submit" value="Send" class="btn poppins">
+            </form>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="d-flex">
+            <div class="col-md-4">
+                <p class="footer-text1">iSchool</p>
+                <p class="footer-text2">You can always express your suggestions and wishes regarding our school via our
+                    email.
+                    We are happy to listen to your feedback and will do our best to improve the operation of our school.
+                </p>
+                <p class="footer-text2">© 2023 iSchool</p>
+                <p class="footer-text2">Design by Nguyen Bao Anh</p>
+            </div>
+            <div class="col-md-4 mw-100 d-flex">
+                <ul class="w-50" style="list-style-type: none;">
+                    <p class="footer-text3">Useful</p>
+                    <li class="footer-text2">Home</li>
+                    <li class="footer-text2">About us</li>
+                    <li class="footer-text2">Services</li>
+                    <li class="footer-text2">Terms of service</li>
+                    <li class="footer-text2">Privacy policy</li>
+                </ul>
+                <ul class="w-50" style="list-style-type: none;">
+                    <p class="footer-text3">Our Services</p>
+                    <li class="footer-text2">Web Design</li>
+                    <li class="footer-text2">Web Development</li>
+                    <li class="footer-text2">Product</li>
+                    <li class="footer-text2">Marketing</li>
+                    <li class="footer-text2">Graphic Design</li>
+                </ul>
+            </div>
+            <div class="col-md-4" style="list-style-type: none;">
+                <p class="footer-text3">Join Our Newsletter</p>
+                <p class="footer-text2">We'd love to connect with you!
+                    Enter your email to join our community and receive the latest updates.</p>
+                <form>
+                    <input class="footer-input" type="email" name="email" />
+                    <button class="footer-btn">Send</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
