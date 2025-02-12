@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>iSchool</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="StyleLogin.css" />
+
+  <script src="Ham.js">
+
+  </script>
+</head>
+
+<body>
+  <div class="mw-100 d-flex" style="height: 100%;">
+    <div class="w-50" style="background-color: #1C56ED;">
+      <p class="logo">iSchool</p>
+      <h1 class="text">Welcome to iSchool <p>learning platfrom</p>
+      </h1>
+      <img src="Saly1.png" width="450px" class="img-saly1" />
+    </div>
+    <div class="w-50 signup-form">
+      <h1 style="font-family: Unbounded;">Sign up</h1>
+      <p style="font-family: Poppins; font-size: 12px;">Already have account? <a href="Login.html"
+          style="text-decoration: none;">Sign in</a></p>
+      <form name="myForm" onsubmit="return validateForm()">
+        <label class="label poppins">Full Name</label><br />
+        <input type="text" name="Name" class="input"><br /><br />
+        <label class="label poppins">Email</label><br />
+        <input type="email" name="Email" class="input"><br /><br />
+        <label class="label poppins">Password</label><br />
+        <input type="password" name="Password" class="input"><br /><br />
+        <label class="label poppins">Re-Password</label><br />
+        <input type="password" name="RePassword" class="input"><br /><br />
+        <input type="checkbox" name="Checkbox" />
+        <span class="label poppins">I agreed to the Terms & Conditions</span><br /><br /><br />
+        <!-- <a href="Login.html" class="btn poppins">Sign up</a> -->
+        <input type="submit" value="Sign up" class="btn poppins" />
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
