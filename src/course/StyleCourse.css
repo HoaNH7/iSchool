@@ -15,7 +15,7 @@ body {
     color: #1C56ED;
 }
 
-#header {
+#header-course {
     height: 67px;
     background-color: white;
     position: fixed;
@@ -27,16 +27,16 @@ body {
     z-index: 9999;
 }
 
-#navbar {
+#navbar-course {
     margin: 0;
     display: inline-block;
 }
 
-#navbar li {
+#navbar-course li {
     display: inline-block;
 }
 
-#navbar li a {
+#navbar-course li a {
     color: #444444;
     text-decoration: none;
     line-height: 67px;
@@ -45,17 +45,17 @@ body {
     font-weight: 500;
 }
 
-#navbar li a:hover {
+#navbar-course li a:hover {
     color: #1C56ED;
 }
 
 
-#header .logout-btn {
+#header-course .logout-btn {
     float: right;
     padding-right: 70px;
 }
 
-#header .logout {
+#header-course .logout {
     color: #444444;
     text-decoration: none;
     line-height: 67px;
@@ -68,14 +68,14 @@ body {
     padding: 8px 25px;
 }
 
-#header .logout:hover {
+#header-course .logout:hover {
     background-color: #1545be;
     color: #fff;
 }
 
-#content {}
 
-#content .content-heading {
+
+#content-course .content-heading {
     text-align: center;
     font-size: 40px;
     font-weight: 645;
@@ -84,7 +84,7 @@ body {
     font-family: Unbounded;
 }
 
-#content .content-sub-heading {
+#content-course .content-sub-heading {
     text-align: center;
     margin-left: 360px;
     margin-right: 360px;
@@ -93,50 +93,50 @@ body {
     margin-bottom: 70px;
 }
 
-#content .content-text{
+#content-course .content-text{
     margin-left: 80px;
     font-size: 20px;
     font-weight: 600;
 }
 
-#course .course-list {
+#course-course .course-list {
     margin-left: 70px;
     margin-right: 160px;
 
 }
 
-#course .course-item {
+#course-course .course-item {
+    padding: 15px;
     border: 1px solid #DEDDE4;
     border-radius: 30px;
     margin-left: 15px;
     margin-right: 15px;
 }
 
-#course .course-img {
-    width: 525px;
+#course-course .course-img {
+    width: 480px;
     margin: auto;
     display: block;
-    padding-top: 15px;
     /* padding-top: 15px;
     padding-right: 15px; */
 }
 
-#course .course-text1 {
+#course-course .course-text1 {
     margin-top: 25px;
     font-size: 16px;
     color: #353434;
     font-weight: 600;
 }
 
-#course .course-text2 {
+#course-course .course-text2 {
     color: #353434;
     font-size: 14px;
 }
 
-#course .btn {
+#course-course .btn {
     display: block;
     margin: auto;
-    width: 525px;
+    width: 480px;
     height: 40px;
     border-radius: 4px;
     border: 1px solid #FF6801;
@@ -146,49 +146,49 @@ body {
     margin-bottom: 10px;
 }
 
-#mycourse .mycourse-text{
+#mycourse-course .mycourse-text{
     margin-left: 80px;
     font-size: 20px;
     font-weight: 600;
     margin-top: 80px;
 }
 
-#mycourse .mycourse-list {
+#mycourse-course .mycourse-list {
     margin-left: 70px;
     margin-right: 160px;
 
 }
 
-#mycourse .mycourse-item {
+#mycourse-course .mycourse-item {
     border: 1px solid #DEDDE4;
     border-radius: 30px;
     margin-left: 15px;
     margin-right: 15px;
+    padding: 15px;
 }
 
-#mycourse .mycourse-img {
-    width: 525px;
+#mycourse-course .mycourse-img {
+    width: 480px;
     display: block;
     margin: auto;
-    padding-top: 15px;
 }
 
-#mycourse .mycourse-text1 {
+#mycourse-course .mycourse-text1 {
     margin-top: 25px;
     font-size: 16px;
     color: #353434;
     font-weight: 600;
 }
 
-#mycourse .mycourse-text2 {
+#mycourse-course .mycourse-text2 {
     color: #353434;
     font-size: 14px;
 }
 
-#mycourse .btn {
+#mycourse-course .btn {
     display: block;
     margin: auto;
-    width: 525px;
+    width: 480px;
     height: 40px;
     border-radius: 4px;
     border: 1px solid #FFC107;

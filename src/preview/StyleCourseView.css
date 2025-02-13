@@ -19,7 +19,7 @@ body {
     color: #1C56ED;
 }
 
-#header {
+#header-courseview {
     height: 67px;
     background-color: white;
     position: fixed;
@@ -31,16 +31,16 @@ body {
     z-index: 9999;
 }
 
-#navbar {
+#navbar-courseview {
     margin: 0;
     display: inline-block;
 }
 
-#navbar li {
+#navbar-courseview li {
     display: inline-block;
 }
 
-#navbar li a {
+#navbar-courseview li a {
     color: #444444;
     text-decoration: none;
     line-height: 67px;
@@ -49,17 +49,17 @@ body {
     font-weight: 500;
 }
 
-#navbar li a:hover {
+#navbar-courseview li a:hover {
     color: #1C56ED;
 }
 
 
-#header .logout-btn {
+#header-courseview .logout-btn {
     float: right;
     padding-right: 70px;
 }
 
-#header .logout {
+#header-courseview .logout {
     color: #444444;
     text-decoration: none;
     line-height: 67px;
@@ -72,34 +72,34 @@ body {
     padding: 8px 25px;
 }
 
-#header .logout:hover {
+#header-courseview .logout:hover {
     background-color: #1545be;
     color: #fff;
 }
 
-#content {
+#content-courseview {
     margin-top: 100px;
     height: 1500px;
     margin-left: 70px;
 }
 
-#content .content-heading {
+#content-courseview .content-heading-courseview {
     font-size: 24px;
     font-weight: 600;
 }
 
-#content .content-sub-heading{
+#content-courseview .content-sub-heading-courseview{
     margin-right: 70px;
 }
 
-#content .content-left {
+#content-courseview .content-left {
     border: 1px solid #DEDDE4;
     border-radius: 8px;
     height: 400px;
     padding: 20px;
 }
 
-#content .content-right {
+#content-courseview .content-right {
     border: 1px solid #DEDDE4;
     border-radius: 8px;
     margin-left: 20px;
@@ -107,16 +107,17 @@ body {
     height: 1400px;
 }
 
-#content .content-text{
+#content-courseview .content-text-courseview{
 font-size: 30px;
 font-weight: 600;
 }
 
-#content .content-link{
+#content-courseview .content-link{
     color: #353434;
+    text-decoration: none;
 }
 
-#content .content-link:hover{
+#content-courseview .content-link:hover{
     color: #1C56ED;
 }
 

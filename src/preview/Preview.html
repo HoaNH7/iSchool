@@ -3,46 +3,12 @@
 
 <head>
     <title>iSchool</title>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="StylePreview.css" />
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const nameInput = document.getElementById("name");
-            const commentInput = document.getElementById("comment");
-            const submitButton = document.getElementById("submit-button");
-            const commentsContainer = document.getElementById("comments");
-
-            submitButton.addEventListener("click", function () {
-                const name = nameInput.value;
-                const comment = commentInput.value;
-
-                if (name && comment) {
-                    // Create a new Date object to get the current timestamp
-                    const timestamp = new Date();
-
-                    const commentElement = document.createElement("div");
-                    commentElement.className = "comments";
-
-                    // Format the timestamp as a string (adjust the format as needed)
-                    const timestampString = timestamp.toLocaleString();
-
-                    commentElement.innerHTML = `<strong>${name} (${timestampString}):</strong></br> ${comment}`;
-                    commentsContainer.appendChild(commentElement);
-
-                    // Clear input fields
-                    nameInput.value = "";
-                    commentInput.value = "";
-                }
-            });
-        });
-    </script>
-    
 </head>
 
 <body>
@@ -76,10 +42,10 @@
     <div id="content">
         <div>
             <p class="content-heading poppins">Overview of Javascirpt Basic</p>
-            <p class="content-text1">JavaScript ("JS" for short) is a full-fledged dynamic programming language that,
+            <p class="content-text1"></p>JavaScript ("JS" for short) is a full-fledged dynamic programming language that,
                 when applied to an HTML document, can provide dynamic interactivity on websites.
                 It was invented by Brendan Eich, co-founder of the Mozilla project, the Mozilla Foundation, and the
-                Mozilla Corporation.</p>
+                Mozilla Corporation.
             <p class="content-text1">JavaScript is incredibly versatile. You can start small, with carousels, image
                 galleries, fluctuating layouts, and button click responses. With more experience, you'll be able to
                 create games, animated 2D and 3D graphics, comprehensive database-driven apps, and much more!</p>
@@ -147,21 +113,6 @@
         </div>
     </div>
     </div>
-    <!-- <div class="comment-box">
-        <h2>Bình luận</h2>
-        <br>
-        <input type="text" id="name" placeholder="Tên">
-    </div>
-    <br>
- 
-    <div>
-        <textarea id="comment" placeholder="Bình luận" rows="10" cols="60"></textarea>
-    </div>
-    <br>
-    <br>
-    <button id="submit-button">Submit</button>
-    <div id="comments"></div>
-</div> -->
 
     <footer id="footer">
         <div class="d-flex">
@@ -191,15 +142,6 @@
                     <li class="footer-text2">Marketing</li>
                     <li class="footer-text2">Graphic Design</li>
                 </ul>
-            </div>
-            <div class="col-md-4" style="list-style-type: none;">
-                <p class="footer-text3">Join Our Newsletter</p>
-                <p class="footer-text2">We'd love to connect with you!
-                    Enter your email to join our community and receive the latest updates.</p>
-                <form>
-                    <input class="footer-input" type="email" name="email" />
-                    <button class="footer-btn" onclick="sendFooter()">Send</button>
-                </form>
             </div>
         </div>
     </footer>

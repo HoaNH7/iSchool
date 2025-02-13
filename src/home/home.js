@@ -1,50 +1,62 @@
 import React from "react";
-import "./StyleHome.css"; 
-import { Link } from 'react-router-dom';
+import "./StyleHome.css";
+import { Link } from "react-router-dom";
 import Saly2 from "../image/Saly2.png";
 import Avatar1 from "../image/Avt1.png";
 import Avatar2 from "../image/Avt2.png";
 import Avatar3 from "../image/Avt3.png";
 import Menu from "../image/menu.png";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Home = () => {
   return (
     <div>
-      <header id="header">
-        <ul id="navbar" className="poppins">
-                  <li>
-                  <Link to="/iSchool" style={{ color: '#1C56ED' }}>iSchool</Link>
-                    </li>
-                  <li><Link to="/iSchool">Home</Link></li>
-                  <li><Link to="/about">About</Link></li>
-                  <li><Link to="/courses">Courses</Link></li>
-                  <li><Link to="/contact">Contact</Link></li>
-                </ul>
+      <header id="header-home">
+        <ul id="navbar-home" className="poppins">
+          <li>
+            <Link to="/iSchool" style={{ color: "#1C56ED" }}>
+              iSchool
+            </Link>
+          </li>
+          <li>
+            <Link to="/iSchool">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/courses">Courses</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+        </ul>
         <div className="logout-btn">
           <a className="logout" href="/user/Login.html">
             Log Out
           </a>
         </div>
-        <div id="mobile-menu" className="mobile-menu-btn">
-          <a className="menu-icon" href="#">
+        <div id="mobile-menu-home" className="mobile-menu-btn-home">
+          <a className="menu-icon-home" href="#">
             <img src={Menu} alt="Menu" />
           </a>
         </div>
       </header>
 
-      <div id="slider" className="mw-100 d-flex">
-        <div className="text-bg w-50">
-          <h1 className="text1">Learning and</h1>
-          <h1 className="text1">teaching online,</h1>
-          <h1 className="text1" style={{ marginBottom: "30px" }}>
-            made easy at <span className="span-text">iSchool</span>
+      <div id="slider-home" className="mw-100 d-flex">
+        <div className="text-bg-home w-50">
+          <h1 className="text1-home">Learning and</h1>
+          <h1 className="text1-home">teaching online,</h1>
+          <h1 className="text1-home" style={{ marginBottom: "30px" }}>
+            made easy at <span className="span-text-home">iSchool</span>
           </h1>
-          <p className="text2">Practice and learn new things with the platform iSchool</p>
+          <p className="text2-home">
+            Practice and learn new things with the platform iSchool
+          </p>
           <br />
-          <a className="btn-lesson poppins" href="/course/Courses.html">
+          <a className="btn-lesson-home poppins" href="/course/Courses.html">
             Trial lesson
           </a>
         </div>
@@ -53,75 +65,82 @@ const Home = () => {
         </div>
       </div>
 
-      <div id="content">
+      <div id="content-home">
         <div>
-          <p className="content-heading poppins">Our Success</p>
-          <p className="content-sub-heading poppins">
-            We have achieved great success in teaching and empowering students' language skills.
-            Modern methods, flexible programs, and dedicated instructors have made it highly
-            reputable, helping numerous students improve their English and reach their goals.
+          <p className="content-heading-home poppins">Our Success</p>
+          <p className="content-sub-heading-home poppins">
+            We have achieved great success in teaching and empowering students'
+            language skills. Modern methods, flexible programs, and dedicated
+            instructors have made it highly reputable, helping numerous students
+            improve their English and reach their goals.
           </p>
         </div>
-        <div className="data-list d-flex">
+        <div className="data-list-home d-flex">
           <div className="col-md-3">
-            <p className="data-item1">15K+</p>
-            <p className="data-item2">Students</p>
+            <p className="data-item1-home">15K+</p>
+            <p className="data-item2-home">Students</p>
           </div>
           <div className="col-md-3">
-            <p className="data-item1">75%</p>
-            <p className="data-item2">Total Success</p>
+            <p className="data-item1-home">75%</p>
+            <p className="data-item2-home">Total Success</p>
           </div>
           <div className="col-md-3">
-            <p className="data-item1">35</p>
-            <p className="data-item2">Main questions</p>
+            <p className="data-item1-home">35</p>
+            <p className="data-item2-home">Main questions</p>
           </div>
           <div className="col-md-3">
-            <p className="data-item1">26</p>
-            <p className="data-item2">Chief experts</p>
+            <p className="data-item1-home">26</p>
+            <p className="data-item2-home">Chief experts</p>
           </div>
         </div>
       </div>
 
-      <div id="background-img">
-        <p className="text-img1">
-          The <span className="span-img1">mission</span> of iSchool
+      <div id="background-img-home">
+        <p className="text-img1-home">
+          The <span className="span-img1-home">mission</span> of iSchool
         </p>
-        <p className="text-img2" style={{ justifyContent: "center" }}>
-          to provide <span className="span-img2">quality</span> education
+        <p className="text-img2-home" style={{ justifyContent: "center" }}>
+          to provide <span className="span-img2-home">quality</span> education
         </p>
       </div>
 
-      <div id="review">
-        <p className="review-heading poppins">Reviews</p>
-        <p className="review-sub-heading poppins">
+      <div id="review-home">
+        <p className="review-heading-home poppins">Reviews</p>
+        <p className="review-sub-heading-home poppins">
           We suggest reading more feedback from our students.
         </p>
-        <div className="avt-list">
-          <div className="col-md-4 col- avt-item">
+        <div className="avt-list-home">
+          <div className="col-md-4 col- avt-item-home">
             <img src={Avatar1} alt="Avatar 1" />
-            <p className="text-review shadow-sm poppins">
-              “I am very satisfied with my decision to study English at iSchool. The atmosphere here is
-              friendly and supportive, and the teachers have done everything possible to help me
-              understand and remember difficult topics. Thanks to this, I feel significant progress in my
-              English learning, and the classes are always interesting and productive.”
+            <p className="text-review-home shadow-sm poppins">
+              “I am very satisfied with my decision to study English at iSchool.
+              The atmosphere here is friendly and supportive, and the teachers
+              have done everything possible to help me understand and remember
+              difficult topics. Thanks to this, I feel significant progress in
+              my English learning, and the classes are always interesting and
+              productive.”
             </p>
           </div>
-          <div className="col-md-4 avt-item">
+          <div className="col-md-4 avt-item-home">
             <img src={Avatar2} alt="Avatar 2" />
-            <p className="text-review shadow-sm poppins">
-              “I am very satisfied with my decision to study English at iSchool. The atmosphere here is
-              friendly and supportive, and the teachers have done everything possible to help me
-              understand and remember difficult topics. Thanks to this, I feel significant progress in my
-              English learning, and the classes are always interesting and productive.”
+            <p className="text-review-home shadow-sm poppins">
+              “I am very satisfied with my decision to study English at iSchool.
+              The atmosphere here is friendly and supportive, and the teachers
+              have done everything possible to help me understand and remember
+              difficult topics. Thanks to this, I feel significant progress in
+              my English learning, and the classes are always interesting and
+              productive.”
             </p>
           </div>
-          <div className="col-md-4 avt-item">
+          <div className="col-md-4 avt-item-home">
             <img src={Avatar3} alt="Avatar 3" />
-            <p className="text-review shadow-sm poppins">
-              “I am very satisfied with my decision to study English at iSchool. The atmosphere here is
-              friendly and supportive, and the teachers have done everything possible to help me
-              understand and remember difficult topics. Thanks to this, I feel significant progress in my
-              English learning, and the classes are always interesting and productive.”
+            <p className="text-review-home shadow-sm poppins">
+              “I am very satisfied with my decision to study English at iSchool.
+              The atmosphere here is friendly and supportive, and the teachers
+              have done everything possible to help me understand and remember
+              difficult topics. Thanks to this, I feel significant progress in
+              my English learning, and the classes are always interesting and
+              productive.”
             </p>
           </div>
         </div>

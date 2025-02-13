@@ -15,7 +15,7 @@ body {
     color: #1C56ED;
 }
 
-#header {
+#header-contact {
     height: 67px;
     background-color: white;
     position: fixed;
@@ -27,16 +27,16 @@ body {
     z-index: 9999;
 }
 
-#navbar {
+#navbar-contact {
     margin: 0;
     display: inline-block;
 }
 
-#navbar li {
+#navbar-contact li {
     display: inline-block;
 }
 
-#navbar li a {
+#navbar-contact li a {
     color: #444444;
     text-decoration: none;
     line-height: 67px;
@@ -45,17 +45,17 @@ body {
     font-weight: 500;
 }
 
-#navbar li a:hover {
+#navbar-contact li a:hover {
     color: #1C56ED;
 }
 
 
-#header .logout-btn {
+#header-contact .logout-btn {
     float: right;
     padding-right: 70px;
 }
 
-#header .logout {
+#header-contact .logout {
     color: #444444;
     text-decoration: none;
     line-height: 67px;
@@ -68,12 +68,12 @@ body {
     padding: 8px 25px;
 }
 
-#header .logout:hover {
+#header-contact .logout:hover {
     background-color: #1545be;
     color: #fff;
 }
 
-#content .content-heading{
+#content-contact .content-heading{
     text-align: center;
     font-size: 40px;
     font-weight: 645;
@@ -82,7 +82,7 @@ body {
     font-family: Unbounded;
 }
 
-#content .content-sub-heading{
+#content-contact .content-sub-heading{
     text-align: center;
     margin-left: 360px;
     margin-right: 360px;
@@ -91,13 +91,13 @@ body {
     margin-bottom: 70px;
 }
 
-#content .content-form{
+#content-contact .content-form{
     margin-left: 300px;
     margin-right: 270px;
     height: 500px;
 }
 
-#content .content-form .input-name {
+#content-contact .content-form .input-name {
     width: 810px;
     display: flex;
 }

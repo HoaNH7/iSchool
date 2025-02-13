@@ -19,7 +19,7 @@ body {
     color: #1C56ED;
 }
 
-#header {
+#header-home {
     height: 67px;
     background-color: white;
     position: fixed;
@@ -32,16 +32,16 @@ body {
     overflow: hidden;
 }
 
-#navbar {
+#navbar-home {
     margin: 0;
     display: inline-block;
 }
 
-#navbar li {
+#navbar-home li {
     display: inline-block;
 }
 
-#navbar li a {
+#navbar-home li a {
     color: #444444;
     text-decoration: none;
     line-height: 67px;
@@ -50,28 +50,28 @@ body {
     font-weight: 500;
 }
 
-#navbar li a:hover {
+#navbar-home li a:hover {
     color: #1C56ED;
 }
 
-#header .mobile-menu-btn,
-#header .logout-btn {
+#header-home .mobile-menu-btn-home,
+#header-home .logout-btn {
     float: right;
     padding-right: 70px;
 }
 
-#header .mobile-menu-btn{
+#header-home .mobile-menu-btn-home{
     position: absolute;
     top: 0;
     right: 0;
     display: none;
 }
 
-#header .mobile-menu-btn:hover .menu-icon{
+#header-home .mobile-menu-btn-home:hover .menu-icon-home{
     color: #000;
 }
 
-#header .menu-icon{
+#header-home .menu-icon-home{
     text-decoration: none;
     line-height: 67px;
     font-size: 15px;
@@ -81,7 +81,7 @@ body {
     padding: 8px 25px;
 }
 
-#header .logout {
+#header-home .logout {
     color: #444444;
     text-decoration: none;
     line-height: 67px;
@@ -94,20 +94,20 @@ body {
     padding: 8px 25px;
 }
 
-#header .logout:hover {
+#header-home .logout:hover {
     background-color: #1545be;
     color: #fff;
 }
 
 
-#slider {
+#slider-home {
     margin-top: 67px;
     height: 681px;
     background-color: #1C56ED;
 
 }
 
-#slider .text-bg {
+#slider-home .text-bg-home {
     margin-top: 67px;
     padding-top: 100px;
     width: 100%;
@@ -119,14 +119,14 @@ body {
 }
 
 
-#slider .saly2 {
+#slider-home .saly2 {
     margin-left: auto;
     margin-top: 80px;
     margin-right: auto;
     display: block;
 }
 
-#slider .text-bg .text1 {
+#slider-home .text-bg-home .text1-home {
     color: #fcfbfb;
     padding-left: 70px;
     margin: 0;
@@ -135,20 +135,20 @@ body {
     font-family: Unbounded;
 }
 
-#slider .text-bg .text2 {
+#slider-home .text-bg-home .text2-home {
     color: #fcfbfb;
     padding-left: 70px;
     font-size: 15px;
     font-family: poppins;
 }
 
-#slider .text-bg .text1 .span-text {
+#slider-home .text-bg-home .text1 .span-text-home {
     border: 1px;
     color: #1C56ED;
     background: #fcfbfb;
 }
 
-#slider .text-bg .btn-lesson {
+#slider-home .text-bg-home .btn-lesson-home {
     text-decoration: none;
     margin-left: 70px;
     color: #fcfbfb;
@@ -157,10 +157,8 @@ body {
     background-color: #ff6801;
 }
 
-#content {
-}
 
-#content .content-heading{
+#content-home .content-heading-home{
     text-align: center;
     font-size: 40px;
     font-weight: 645;
@@ -168,7 +166,7 @@ body {
     color: #353434;
 }
 
-#content .content-sub-heading{
+#content-home .content-sub-heading-home{
     text-align: center;
     margin-left: 260px;
     margin-right: 260px;
@@ -177,20 +175,20 @@ body {
     margin-bottom: 70px;
 }
 
-#content .data-list{
+#content-home .data-list-home{
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
 }
 
-#content .data-item{
+#content-home .data-item-home{
     float: left;
     margin-right: 75px;
     margin-left: 75px;
     margin-bottom: 50px;
 }
 
-#content .data-item1{
+#content-home .data-item1-home{
     font-size: 45px;
     color: #1C56ED;
     font-weight: bold;
@@ -198,19 +196,19 @@ body {
     margin-bottom: 0;
 }
 
-#content .data-item2{
+#content-home .data-item2-home{
     color: #616161;
     font-size: 14px;
     font-weight: 450;
 }
 
-#background-img{
+#background-img-home{
     background: url("../image/Home.jpg") top center / cover no-repeat;
     margin-top: 100px;
     height: 700px;
 }
 
-#background-img .text-img1{
+#background-img-home .text-img1-home{
     padding-top: 30px;
     text-align: center;
     font-size: 60px;
@@ -219,11 +217,11 @@ body {
     color: #fff;
 }
 
-#background-img .span-img1{
+#background-img-home .span-img1-home{
     background-color: #FF6801;
 }
 
-#background-img .text-img2{
+#background-img-home .text-img2-home{
     padding-top: 400px;
     text-align: center;
     color: #fff;
@@ -232,12 +230,12 @@ body {
     font-weight: 700;
 }
 
-#background-img .span-img2{
+#background-img-home .span-img2-home{
     background-color: #fff;
     color: #1C56ED;
 }
 
-#review .review-heading{
+#review-home .review-heading-home{
     text-align: center;
     font-size: 40px;
     font-weight: 645;
@@ -245,7 +243,7 @@ body {
     color: #353434;
 }
 
-#review .review-sub-heading{
+#review-home .review-sub-heading-home{
     text-align: center;
     margin-left: 260px;
     margin-right: 260px;
@@ -254,17 +252,17 @@ body {
     margin-bottom: 70px;
 }
 
-#review .avt-list{
+#review-home .avt-list-home{
     display: inline-flex;
     margin-left: 70px;
     margin-right: 70px;
 }
 
-#review .avt-item{
+#review-home .avt-item-home{
     text-align: center;
 }
 
-#review .text-review{
+#review-home .text-review-home{
     border: 1px solid #DEDDE4;
     background-color: #fff;
     border-radius: 6px;

@@ -15,7 +15,7 @@ body {
     color: #1C56ED;
 }
 
-#header {
+#header-about {
     height: 67px;
     background-color: white;
     position: fixed;
@@ -27,16 +27,16 @@ body {
     z-index: 9999;
 }
 
-#navbar {
+#navbar-about {
     margin: 0;
     display: inline-block;
 }
 
-#navbar li {
+#navbar-about li {
     display: inline-block;
 }
 
-#navbar li a {
+#navbar-about li a {
     color: #444444;
     text-decoration: none;
     line-height: 67px;
@@ -45,17 +45,17 @@ body {
     font-weight: 500;
 }
 
-#navbar li a:hover {
+#navbar-about li a:hover {
     color: #1C56ED;
 }
 
 
-#header .logout-btn {
+#header-about .logout-btn {
     float: right;
     padding-right: 70px;
 }
 
-#header .logout {
+#header-about .logout {
     color: #444444;
     text-decoration: none;
     line-height: 67px;
@@ -68,15 +68,13 @@ body {
     padding: 8px 25px;
 }
 
-#header .logout:hover {
+#header-about .logout:hover {
     background-color: #1545be;
     color: #fff;
 }
 
-#content {
-}
 
-#content .content-heading{
+#content-about .content-heading-about{
     text-align: center;
     font-size: 40px;
     font-weight: 645;
@@ -85,7 +83,7 @@ body {
     font-family: Unbounded;
 }
 
-#content .content-sub-heading{
+#content-about .content-sub-heading-about{
     text-align: center;
     margin-left: 360px;
     margin-right: 360px;
@@ -94,7 +92,7 @@ body {
     margin-bottom: 70px;
 }
 
-#content .about-img{
+#content-about .about-img{
     background: url('../image/About.png') no-repeat;
     height: 500px;
     width: 800px;
@@ -102,7 +100,7 @@ body {
 
 }
 
-#content .data-list{
+#content-about .data-list-about{
     display: flex;
     justify-content: center;
     padding: 50px;
@@ -110,22 +108,22 @@ body {
     height: 200px;
 }
 
-#content .data-item{
+#content-about .data-item-about{
     float: left;
     margin-right: 75px;
     margin-left: 75px;
     margin-bottom: 50px;
 }
 
-#content .data-sub-item1{
+#content-about .data-sub-item1-about{
     text-decoration: none;
 }
 
-#content .data-sub-item1:hover{
+#content-about .data-sub-item1-about:hover{
     color: red;
 }
 
-#content .data-item1{
+#content-about .data-item1-about{
     font-size: 45px;
     color: #1C56ED;
     font-weight: bold;
@@ -133,13 +131,13 @@ body {
     margin-bottom: 0;
 }
 
-#content .data-item2{
+#content-about .data-item2-about{
     color: #616161;
     font-size: 14px;
     font-weight: 450;
 }
 
-#review .review-heading{
+#review-about .review-heading-about{
     text-align: center;
     font-size: 40px;
     font-weight: 645;
@@ -147,7 +145,7 @@ body {
     color: #353434;
 }
 
-#review .review-sub-heading{
+#review-about .review-sub-heading-about{
     text-align: center;
     margin-left: 260px;
     margin-right: 260px;
@@ -156,16 +154,16 @@ body {
     margin-bottom: 70px;
 }
 
-#review .avt-list{
+#review-about .avt-list-about{
     margin-left: 70px;
     margin-right: 70px;
 }
 
-#review .avt-item{
+#review-about .avt-item-about{
     text-align: center;
 }
 
-#review .text-review{
+#review-about .text-review-about{
     border: 1px solid #DEDDE4;
     background-color: #fff;
     border-radius: 6px;
