@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/iSchool/static/css/main.afedd3af.css",
-    "main.js": "/iSchool/static/js/main.f01c3aa5.js",
+    "main.css": "/iSchool/static/css/main.e7860846.css",
+    "main.js": "/iSchool/static/js/main.421cf87e.js",
     "static/js/488.1f28c428.chunk.js": "/iSchool/static/js/488.1f28c428.chunk.js",
     "static/media/Home.jpg": "/iSchool/static/media/Home.c77d057c84920b48203f.jpg",
     "static/media/fa-solid-900.ttf": "/iSchool/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
@@ -21,12 +21,12 @@
     "static/media/fa-v4compatibility.ttf": "/iSchool/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/iSchool/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/iSchool/index.html",
-    "main.afedd3af.css.map": "/iSchool/static/css/main.afedd3af.css.map",
-    "main.f01c3aa5.js.map": "/iSchool/static/js/main.f01c3aa5.js.map",
+    "main.e7860846.css.map": "/iSchool/static/css/main.e7860846.css.map",
+    "main.421cf87e.js.map": "/iSchool/static/js/main.421cf87e.js.map",
     "488.1f28c428.chunk.js.map": "/iSchool/static/js/488.1f28c428.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afedd3af.css",
-    "static/js/main.f01c3aa5.js"
+    "static/css/main.e7860846.css",
+    "static/js/main.421cf87e.js"
   ]
 }
