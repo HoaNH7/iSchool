@@ -19,7 +19,7 @@ body {
     color: #1C56ED;
 }
 
-#header {
+#header-exerciseview {
     height: 67px;
     background-color: white;
     position: fixed;
@@ -31,16 +31,16 @@ body {
     z-index: 9999;
 }
 
-#navbar {
+#navbar-exerciseview {
     margin: 0;
     display: inline-block;
 }
 
-#navbar li {
+#navbar-exerciseview li {
     display: inline-block;
 }
 
-#navbar li a {
+#navbar-exerciseview li a {
     color: #444444;
     text-decoration: none;
     line-height: 67px;
@@ -49,17 +49,17 @@ body {
     font-weight: 500;
 }
 
-#navbar li a:hover {
+#navbar-exerciseview li a:hover {
     color: #1C56ED;
 }
 
 
-#header .logout-btn {
+#header-exerciseview .logout-btn {
     float: right;
     padding-right: 70px;
 }
 
-#header .logout {
+#header-exerciseview .logout {
     color: #444444;
     text-decoration: none;
     line-height: 67px;
@@ -72,34 +72,34 @@ body {
     padding: 8px 25px;
 }
 
-#header .logout:hover {
+#header-exerciseview .logout:hover {
     background-color: #1545be;
     color: #fff;
 }
 
-#content {
+#content-exerciseview {
     margin-top: 100px;
     height: 750px;
     margin-left: 70px;
 }
 
-#content .content-heading {
+#content-exerciseview .content-heading {
     font-size: 24px;
     font-weight: 600;
 }
 
-#content .content-sub-heading {
+#content-exerciseview .content-sub-heading {
     margin-right: 70px;
 }
 
-#content .content-left {
+#content-exerciseview .content-left {
     border: 1px solid #DEDDE4;
     border-radius: 8px;
     height: 400px;
     padding: 20px;
 }
 
-#content .content-right {
+#content-exerciseview .content-right {
     border: 1px solid #DEDDE4;
     border-radius: 8px;
     margin-left: 20px;
@@ -107,31 +107,32 @@ body {
     height: 650px;
 }
 
-#content .content-text {
+#content-exerciseview .content-text {
     font-size: 30px;
     font-weight: 600;
 }
 
-#content .content-text1 {
+#content-exerciseview .content-text1 {
     font-size: 14px;
     color: #8a8a8c;
 }
 
 
-#content .content-link {
+#content-exerciseview .content-link {
+    text-decoration: none;
     color: #353434;
 }
 
-#content .content-link:hover {
+#content-exerciseview .content-link:hover {
     color: #1C56ED;
 }
 
-#content .content-bg{
+#content-exerciseview .content-bg{
     background-color: #1C56ED;
     height: 150px;
 }
 
-#content .content-text3 {
+#content-exerciseview .content-text3 {
     color: #fff;
     padding-top: 40px;
     padding-left: 30px;
@@ -140,13 +141,13 @@ body {
     margin: 0;
 }
 
-#content .content-sub-text3{
+#content-exerciseview .content-sub-text3{
     font-size: 14px;
     color: #fff;
     padding-left: 30px;
 }
 
-.btn {
+#content-exerciseview .btn {
     width: 150px;
     height: 40px;
     border-radius: 4px;

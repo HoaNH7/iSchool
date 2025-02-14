@@ -6,6 +6,8 @@ import Courses from "./course/courses";
 import Contact from "./contact/contact";
 import Preview from "./preview/preview";
 import CourseView from "./preview/courseview";
+import ExcerciseView from "./excercise/exerciseView";
+import Exercise from "./excercise/exercise";
 
 const RoutesComponent = () => {
   return (
@@ -18,6 +20,8 @@ const RoutesComponent = () => {
         <Route path="/iSchool" element={<Home />} />
         <Route path="/preview" element={<Preview />} />
         <Route path="/courseview" element={<CourseView />} />
+        <Route path="/excerciseview" element={<ExcerciseView />} />
+        <Route path="/exercise" element={<Exercise />} />
       </Routes>
     </Router>
   );

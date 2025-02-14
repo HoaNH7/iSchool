@@ -114,7 +114,7 @@ body {
 }
 
 #course-course .course-img {
-    width: 480px;
+    width: 525px;
     margin: auto;
     display: block;
     /* padding-top: 15px;
@@ -136,7 +136,7 @@ body {
 #course-course .btn {
     display: block;
     margin: auto;
-    width: 480px;
+    width: 525px;
     height: 40px;
     border-radius: 4px;
     border: 1px solid #FF6801;
@@ -168,7 +168,7 @@ body {
 }
 
 #mycourse-course .mycourse-img {
-    width: 480px;
+    width: 525px;
     display: block;
     margin: auto;
 }
@@ -188,7 +188,7 @@ body {
 #mycourse-course .btn {
     display: block;
     margin: auto;
-    width: 480px;
+    width: 525px;
     height: 40px;
     border-radius: 4px;
     border: 1px solid #FFC107;

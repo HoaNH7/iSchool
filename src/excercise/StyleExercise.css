@@ -10,7 +10,7 @@ body {
     font-family: Poppins;
 }
 
-#header {
+#header-exercise {
     height: 67px;
     background-color: white;
     position: fixed;
@@ -22,7 +22,7 @@ body {
     z-index: 9999;
 }
 
-#header .header-text {
+#header-exercise .header-text {
     margin-left: 10px;
     font-size: 18px;
     font-weight: 600;
@@ -30,22 +30,22 @@ body {
 }
 
 
-#navbar {
+#navbar-exercise {
     margin: 0;
     display: inline-block;
 }
 
-#navbar li {
+#navbar-exercise li {
     display: inline-block;
 }
 
-#navbar li a {
+#navbar-exercise li a {
     padding-left: 30px;
 }
 
 
 
-#header .time {
+#header-exercise .time {
     float: right;
     padding-right: 70px;
     color: #444444;
@@ -53,17 +53,18 @@ body {
     font-weight: 500;
 }
 
-#content {
+#content-exercise {
     margin-top: 100px;
     height: 1200px;
     margin-left: 70px;
 }
 
-#content .question{
+#content-exercise .question{
     font-weight: 500;
 }
 
-.btn {
+#content-exercise .btn {
+    float: left;
     width: 150px;
     height: 40px;
     border-radius: 4px;
