@@ -92,9 +92,8 @@ body {
 }
 
 #content-contact .content-form{
-    margin-left: 300px;
-    margin-right: 270px;
-    height: 500px;
+    width: 800px; /* Đặt chiều rộng cụ thể */
+    margin: 0 auto;
 }
 
 #content-contact .content-form .input-name {
@@ -108,7 +107,7 @@ body {
 
 }
 
-.input {
+.input{
     width: 370px;
     height: 40px;
     border-radius: 4px;
@@ -129,7 +128,7 @@ body {
     border: 1px solid #DEDDE4;
 }
 
-.btn {
+.btn-about {
     width: 775px;
     height: 40px;
     border-radius: 4px;

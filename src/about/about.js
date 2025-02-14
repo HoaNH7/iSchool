@@ -8,6 +8,7 @@ import Check from "../image/check.png";
 import Avatar1 from "../image/Avt1.png";
 import Avatar2 from "../image/Avt2.png";
 import Avatar3 from "../image/Avt3.png";
+import AboutImg from "../image/About.png";
 
 const About = () => {
   return (
@@ -15,15 +16,15 @@ const About = () => {
       <header id="header-about">
         <ul id="navbar-about" className="poppins">
           <li>
-            <Link to="/iSchool" style={{ color: "#1C56ED" }}>
-              iSchool
-            </Link>
+            <Link to="/iSchool">iSchool</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/iSchool">Home</Link>
-          </li>
+          </li> */}
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about" style={{ color: "#1C56ED" }}>
+              About
+            </Link>
           </li>
           <li>
             <Link to="/courses">Courses</Link>
@@ -33,9 +34,9 @@ const About = () => {
           </li>
         </ul>
         <div className="logout-btn">
-          <a className="logout" href="../user/Login.html">
+          <Link className="logout" to="/login">
             Log Out
-          </a>
+          </Link>
         </div>
       </header>
 
@@ -50,7 +51,9 @@ const About = () => {
         </div>
         <div className="mw-100 d-flex poppins">
           <div className="w-50">
-            <div className="about-img"></div>
+            <div className="about-img">
+              <img src={AboutImg} width={750} height={400} />
+            </div>
           </div>
           <div className="w-50" style={{ marginRight: "60px" }}>
             <p style={{ fontWeight: 600 }}>

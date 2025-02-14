@@ -20,9 +20,9 @@ const Home = () => {
               iSchool
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/iSchool">Home</Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/about">About</Link>
           </li>
@@ -34,9 +34,9 @@ const Home = () => {
           </li>
         </ul>
         <div className="logout-btn">
-          <a className="logout" href="/user/Login.html">
+          <Link className="logout" to="/login">
             Log Out
-          </a>
+          </Link>
         </div>
         <div id="mobile-menu-home" className="mobile-menu-btn-home">
           <a className="menu-icon-home" href="#">
@@ -56,9 +56,9 @@ const Home = () => {
             Practice and learn new things with the platform iSchool
           </p>
           <br />
-          <a className="btn-lesson-home poppins" href="/course/Courses.html">
+          <Link className="btn-lesson-home poppins" to="/courses">
             Trial lesson
-          </a>
+          </Link>
         </div>
         <div className="saly2 w-50">
           <img src={Saly2} alt="Slider Image" />
@@ -151,7 +151,7 @@ const Home = () => {
           <div className="col-md-4">
             <p className="footer-text1">iSchool</p>
             <p className="footer-text2">© 2023 iSchool</p>
-            <p className="footer-text2">Design by Nguyen Bao Anh</p>
+            <p className="footer-text2">Made by Nguyen Huu Hoa</p>
           </div>
           <div className="col-md-4 d-flex">
             <ul className="w-50" style={{ listStyleType: "none" }}>

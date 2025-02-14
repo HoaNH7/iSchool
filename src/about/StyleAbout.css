@@ -93,11 +93,8 @@ body {
 }
 
 #content-about .about-img{
-    background: url('../image/About.png') no-repeat;
-    height: 500px;
-    width: 800px;
     margin-left: 70px;
-
+    margin-bottom: 50px;
 }
 
 #content-about .data-list-about{
@@ -170,6 +167,7 @@ body {
     margin-top: 25px;
     padding: 15px;
     font-size: 14px;
+    margin-right: 10px;
 }
 
 #footer {

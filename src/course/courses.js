@@ -16,27 +16,27 @@ const Course = () => {
       <header id="header-course">
         <ul id="navbar-course" className="poppins">
           <li>
-            <Link to="/iSchool" style={{ color: "#1C56ED" }}>
-              iSchool
-            </Link>
+            <Link to="/iSchool">iSchool</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/iSchool">Home</Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/courses">Courses</Link>
+            <Link to="/courses" style={{ color: "#1C56ED" }}>
+              Courses
+            </Link>
           </li>
           <li>
             <Link to="/contact">Contact</Link>
           </li>
         </ul>
         <div className="logout-btn">
-          <a className="logout" href="../user/Login.html">
+          <Link className="logout" to="/login">
             Log Out
-          </a>
+          </Link>
         </div>
       </header>
 
@@ -155,107 +155,6 @@ const Course = () => {
           </div>
           <br />
           <br />
-          <div className="d-flex course-list">
-            <div className="col-md-4 course-item shadow-sm">
-              <img src={Course1} className="course-img" alt="Course" />
-              <p className="course-text1 poppins">JavaScript basics</p>
-              <p className="course-text2">
-                JavaScript is a programming language that adds interactivity to
-                your website (for example games, responses when buttons are
-                pressed or data).
-              </p>
-              <p className="course-text2">
-                4.3 &nbsp;&nbsp;
-                <img src={Star} width="50px" alt="Rating" />
-              </p>
-              <div style={{ paddingBottom: "15px" }}>
-                <img src={Avatar} width="30px" alt="Instructor" />
-                &nbsp;&nbsp;
-                <span className="course-text2" style={{ fontWeight: 500 }}>
-                  Ta Dinh Tien
-                </span>
-                <span
-                  style={{
-                    float: "right",
-                    color: "#1C56ED",
-                    fontSize: "20px",
-                    fontWeight: 600,
-                  }}
-                >
-                  Free
-                </span>
-                <Link to="/preview" className="btn poppins">
-                  Enroll for free
-                </Link>
-              </div>
-            </div>
-            <div className="col-md-4 course-item shadow-sm">
-              <img src={Course2} className="course-img" alt="Course" />
-              <p className="course-text1 poppins">JavaScript basics</p>
-              <p className="course-text2">
-                JavaScript is a programming language that adds interactivity to
-                your website (for example games, responses when buttons are
-                pressed or data).
-              </p>
-              <p className="course-text2">
-                4.3 &nbsp;&nbsp;
-                <img src={Star} width="50px" alt="Rating" />
-              </p>
-              <div style={{ paddingBottom: "15px" }}>
-                <img src={Avatar} width="30px" alt="Instructor" />
-                &nbsp;&nbsp;
-                <span className="course-text2" style={{ fontWeight: 500 }}>
-                  Ta Dinh Tien
-                </span>
-                <span
-                  style={{
-                    float: "right",
-                    color: "#1C56ED",
-                    fontSize: "20px",
-                    fontWeight: 600,
-                  }}
-                >
-                  Free
-                </span>
-                <Link to="/preview" className="btn poppins">
-                  Enroll for free
-                </Link>
-              </div>
-            </div>
-            <div className="col-md-4 course-item shadow-sm">
-              <img src={Course3} className="course-img" alt="Course" />
-              <p className="course-text1 poppins">JavaScript basics</p>
-              <p className="course-text2">
-                JavaScript is a programming language that adds interactivity to
-                your website (for example games, responses when buttons are
-                pressed or data).
-              </p>
-              <p className="course-text2">
-                4.3 &nbsp;&nbsp;
-                <img src={Star} width="50px" alt="Rating" />
-              </p>
-              <div style={{ paddingBottom: "15px" }}>
-                <img src={Avatar} width="30px" alt="Instructor" />
-                &nbsp;&nbsp;
-                <span className="course-text2" style={{ fontWeight: 500 }}>
-                  Ta Dinh Tien
-                </span>
-                <span
-                  style={{
-                    float: "right",
-                    color: "#1C56ED",
-                    fontSize: "20px",
-                    fontWeight: 600,
-                  }}
-                >
-                  Free
-                </span>
-                <Link to="/preview" className="btn poppins">
-                  Enroll for free
-                </Link>
-              </div>
-            </div>
-          </div>
         </div>
 
         <div id="mycourse-course">

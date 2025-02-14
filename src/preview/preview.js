@@ -14,18 +14,18 @@ const Preview = () => {
       <header id="header-preview">
         <ul id="navbar-preview" className="poppins">
           <li>
-            <Link to="/iSchool" style={{ color: "#1C56ED" }}>
-              iSchool
-            </Link>
+            <Link to="/iSchool">iSchool</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/iSchool">Home</Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/courses">Courses</Link>
+            <Link to="/courses" style={{ color: "#1C56ED" }}>
+              Courses
+            </Link>
           </li>
           <li>
             <Link to="/contact">Contact</Link>

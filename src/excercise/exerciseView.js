@@ -12,20 +12,20 @@ const ExcerciseView = () => {
       <header id="header-exerciseview">
         <ul id="navbar-exerciseview" className="poppins">
           <li>
-            <Link className="logo" style={{ color: "#1C56ED" }} to="/home">
+            <Link className="logo" to="/ischool">
               iSchool
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/home">Home</Link>
+          </li> */}
+          <li>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <Link style={{ color: "#1C56ED" }} to="/about">
-              About
+            <Link to="/courses" style={{ color: "#1C56ED" }}>
+              Courses
             </Link>
-          </li>
-          <li>
-            <Link to="/courses">Courses</Link>
           </li>
           <li>
             <Link to="/contact">Contact</Link>

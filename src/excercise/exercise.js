@@ -12,7 +12,7 @@ const Exercise = () => {
       <header id="header-exercise">
         <ul id="navbar-exercise">
           <li>
-            <Link to="/exerciseview">
+            <Link to="/excerciseview">
               <img src={Vector} />
             </Link>
           </li>

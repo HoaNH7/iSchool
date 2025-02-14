@@ -11,13 +11,11 @@ const Contact = () => {
       <header id="header-contact">
         <ul id="navbar-contact" className="poppins">
           <li>
-            <Link to="/iSchool" style={{ color: "#1C56ED" }}>
-              iSchool
-            </Link>
+            <Link to="/iSchool">iSchool</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/iSchool">Home</Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/about">About</Link>
           </li>
@@ -25,13 +23,15 @@ const Contact = () => {
             <Link to="/courses">Courses</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact" style={{ color: "#1C56ED" }}>
+              Contact
+            </Link>
           </li>
         </ul>
         <div className="logout-btn">
-          <a className="logout" href="../user/Login.html">
+          <Link className="logout" to="/login">
             Log Out
-          </a>
+          </Link>
         </div>
       </header>
       <div id="content-contact">
@@ -76,7 +76,7 @@ const Contact = () => {
             <br />
             <br />
             <br />
-            <input type="submit" value="Send" className="btn poppins" />
+            <input type="submit" value="Send" className="btn-about poppins" />
           </form>
         </div>
       </div>

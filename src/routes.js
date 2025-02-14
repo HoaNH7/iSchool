@@ -8,12 +8,16 @@ import Preview from "./preview/preview";
 import CourseView from "./preview/courseview";
 import ExcerciseView from "./excercise/exerciseView";
 import Exercise from "./excercise/exercise";
+import Login from "./user/login";
+import SignUp from "./user/signup";
 
 const RoutesComponent = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<SignUp />} />
         <Route path="/about" element={<About />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/contact" element={<Contact />} />
