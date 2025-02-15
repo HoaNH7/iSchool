@@ -1,9 +1,7 @@
-    /* .poppins{
-        font-family: Poppins;
-    } */
+@import "@fontsource/poppins";
 
 body {
-    margin: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 .logo {
@@ -88,7 +86,7 @@ body {
     margin-left: 360px;
     margin-right: 360px;
     color: #353434;
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 70px;
 }
 

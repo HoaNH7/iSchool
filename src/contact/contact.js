@@ -90,7 +90,7 @@ const Contact = () => {
               will do our best to improve the operation of our school.
             </p>
             <p className="footer-text2">© 2023 iSchool</p>
-            <p className="footer-text2">Design by Nguyen Bao Anh</p>
+            <p className="footer-text2">Present by Nguyen Huu Hoa</p>
           </div>
           <div className="col-md-4 mw-100 d-flex">
             <ul className="w-50" style={{ listStyleType: "none" }}>

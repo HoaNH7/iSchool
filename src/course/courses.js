@@ -88,11 +88,11 @@ const Course = () => {
             </div>
             <div className="col-md-4 course-item shadow-sm">
               <img src={Course2} className="course-img" alt="Course" />
-              <p className="course-text1 poppins">JavaScript basics</p>
+              <p className="course-text1 poppins">HTML/CSS</p>
               <p className="course-text2">
-                JavaScript is a programming language that adds interactivity to
-                your website (for example games, responses when buttons are
-                pressed or data).
+                HTML (HyperText Markup Language) and CSS (Cascading Style
+                Sheets) are the foundational technologies for building web
+                pages.
               </p>
               <p className="course-text2">
                 4.3 &nbsp;&nbsp;
@@ -102,7 +102,7 @@ const Course = () => {
                 <img src={Avatar} width="30px" alt="Instructor" />
                 &nbsp;&nbsp;
                 <span className="course-text2" style={{ fontWeight: 500 }}>
-                  Ta Dinh Tien
+                  Vuong Minh Tuan
                 </span>
                 <span
                   style={{
@@ -121,11 +121,11 @@ const Course = () => {
             </div>
             <div className="col-md-4 course-item shadow-sm">
               <img src={Course3} className="course-img" alt="Course" />
-              <p className="course-text1 poppins">JavaScript basics</p>
+              <p className="course-text1 poppins">ReactJS</p>
               <p className="course-text2">
-                JavaScript is a programming language that adds interactivity to
-                your website (for example games, responses when buttons are
-                pressed or data).
+                ReactJS is a popular JavaScript library for building fast and
+                interactive user interfaces, mainly for web applications. It was
+                developed by Facebook.
               </p>
               <p className="course-text2">
                 4.3 &nbsp;&nbsp;
@@ -135,7 +135,7 @@ const Course = () => {
                 <img src={Avatar} width="30px" alt="Instructor" />
                 &nbsp;&nbsp;
                 <span className="course-text2" style={{ fontWeight: 500 }}>
-                  Ta Dinh Tien
+                  Phan Truong Lam
                 </span>
                 <span
                   style={{
@@ -166,7 +166,7 @@ const Course = () => {
               <p className="mycourse-text2">
                 JavaScript is a programming language that adds interactivity to
                 your website (for example games, responses when buttons are
-                pressed or data)
+                pressed or data).
               </p>
               <p className="mycourse-text2">
                 4.3 &nbsp;&nbsp;
@@ -193,11 +193,11 @@ const Course = () => {
             </div>
             <div className="col-md-4 mycourse-item shadow-sm">
               <img src={Course2} className="mycourse-img" />
-              <p className="mycourse-text1 poppins">JavaScript basics</p>
+              <p className="mycourse-text1 poppins">HTML/CSS</p>
               <p className="mycourse-text2">
-                JavaScript is a programming language that adds interactivity to
-                your website (for example games, responses when buttons are
-                pressed or data)
+                HTML (HyperText Markup Language) and CSS (Cascading Style
+                Sheets) are the foundational technologies for building web
+                pages.
               </p>
               <p className="mycourse-text2">
                 4.3 &nbsp;&nbsp;
@@ -207,7 +207,7 @@ const Course = () => {
                 <img src={Avatar} width="30px" />
                 &nbsp;&nbsp;
                 <span className="mycourse-text2" style={{ fontWeight: 500 }}>
-                  Ta Dinh Tien
+                  Vuong Minh Tuan
                 </span>
                 <span
                   style={{
@@ -224,11 +224,11 @@ const Course = () => {
             </div>
             <div className="col-md-4 mycourse-item shadow-sm">
               <img src={Course3} className="mycourse-img" />
-              <p className="mycourse-text1 poppins">JavaScript basics</p>
+              <p className="mycourse-text1 poppins">ReactJS</p>
               <p className="mycourse-text2">
-                JavaScript is a programming language that adds interactivity to
-                your website (for example games, responses when buttons are
-                pressed or data)
+                ReactJS is a popular JavaScript library for building fast and
+                interactive user interfaces, mainly for web applications. It was
+                developed by Facebook.
               </p>
               <p className="mycourse-text2">
                 4.3 &nbsp;&nbsp;
@@ -238,7 +238,7 @@ const Course = () => {
                 <img src={Avatar} width="30px" />
                 &nbsp;&nbsp;
                 <span className="mycourse-text2" style={{ fontWeight: 500 }}>
-                  Ta Dinh Tien
+                  Phan Truong Lam
                 </span>
                 <span
                   style={{
@@ -267,7 +267,7 @@ const Course = () => {
               will do our best to improve the operation of our school.
             </p>
             <p className="footer-text2">© 2023 iSchool</p>
-            <p className="footer-text2">Design by Nguyen Bao Anh</p>
+            <p className="footer-text2">Present by Nguyen Huu Hoa</p>
           </div>
           <div className="col-md-4 mw-100 d-flex">
             <ul className="w-50" style={{ listStyleType: "none" }}>
