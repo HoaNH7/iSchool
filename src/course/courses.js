@@ -58,8 +58,7 @@ const Course = () => {
               <p className="course-text1 poppins">JavaScript basics</p>
               <p className="course-text2">
                 JavaScript is a programming language that adds interactivity to
-                your website (for example games, responses when buttons are
-                pressed or data).
+                your website.
               </p>
               <p className="course-text2">
                 4.3 &nbsp;&nbsp;
@@ -165,8 +164,7 @@ const Course = () => {
               <p className="mycourse-text1 poppins">JavaScript basics</p>
               <p className="mycourse-text2">
                 JavaScript is a programming language that adds interactivity to
-                your website (for example games, responses when buttons are
-                pressed or data).
+                your website.
               </p>
               <p className="mycourse-text2">
                 4.3 &nbsp;&nbsp;
