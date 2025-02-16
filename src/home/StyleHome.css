@@ -6,14 +6,9 @@ body {
     margin: 0;
 }
 
-.poppins{
-    font-family: Poppins;
-}
-
 .logo {
     font-size: 20px;
     color: #fcfbfb;
-    font-family: Unbounded;
     padding-left: 70px;
     line-height: 67px;
     color: #1C56ED;
@@ -132,7 +127,6 @@ body {
     margin: 0;
     font-size: 45px;
     font-weight: 600;
-    font-family: Unbounded;
 }
 
 #slider-home .text-bg-home .text2-home {
@@ -212,7 +206,6 @@ body {
     padding-top: 30px;
     text-align: center;
     font-size: 60px;
-    font-family: Unbounded;
     font-weight: 700;
     color: #fff;
 }
@@ -226,7 +219,6 @@ body {
     text-align: center;
     color: #fff;
     font-size: 60px;
-    font-family: Unbounded;
     font-weight: 700;
 }
 
@@ -281,19 +273,16 @@ body {
 
 #footer .footer-text1{
     font-size: 20px;
-    font-family: Unbounded;
     color: #fff;
 }
 
 #footer .footer-text2{
     font-size: 14px;
-    font-family: Poppins;
     color: #fff;
 }
 
 #footer .footer-text3{
     font-size: 14px;
-    font-family: Poppins;
     color: #fff;
     font-weight: 500;
 }
@@ -327,7 +316,6 @@ body {
         padding-top: 30px;
         text-align: center;
         font-size: 40px;
-        font-family: Unbounded;
         font-weight: 700;
         color: #fff;
     }
@@ -338,7 +326,6 @@ body {
         text-align: center;
         color: #fff;
         font-size: 40px;
-        font-family: Unbounded;
         font-weight: 700;
     }
 
@@ -412,7 +399,6 @@ body {
         padding-top: 30px;
         text-align: center;
         font-size: 35px;
-        font-family: Unbounded;
         font-weight: 700;
         color: #fff;
     }
@@ -423,7 +409,6 @@ body {
         text-align: center;
         color: #fff;
         font-size: 180%;
-        font-family: Unbounded;
         font-weight: 700;
     }
 

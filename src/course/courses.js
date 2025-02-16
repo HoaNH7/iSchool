@@ -89,9 +89,8 @@ const Course = () => {
               <img src={Course2} className="course-img" alt="Course" />
               <p className="course-text1 poppins">HTML/CSS</p>
               <p className="course-text2">
-                HTML (HyperText Markup Language) and CSS (Cascading Style
-                Sheets) are the foundational technologies for building web
-                pages.
+                HTML and CSS are two core technologies used for creating and
+                designing web pages.
               </p>
               <p className="course-text2">
                 4.3 &nbsp;&nbsp;
@@ -123,8 +122,7 @@ const Course = () => {
               <p className="course-text1 poppins">ReactJS</p>
               <p className="course-text2">
                 ReactJS is a popular JavaScript library for building fast and
-                interactive user interfaces, mainly for web applications. It was
-                developed by Facebook.
+                interactive user interfaces.
               </p>
               <p className="course-text2">
                 4.3 &nbsp;&nbsp;
@@ -193,9 +191,8 @@ const Course = () => {
               <img src={Course2} className="mycourse-img" />
               <p className="mycourse-text1 poppins">HTML/CSS</p>
               <p className="mycourse-text2">
-                HTML (HyperText Markup Language) and CSS (Cascading Style
-                Sheets) are the foundational technologies for building web
-                pages.
+                HTML and CSS are two core technologies used for creating and
+                designing web pages.
               </p>
               <p className="mycourse-text2">
                 4.3 &nbsp;&nbsp;
@@ -225,8 +222,7 @@ const Course = () => {
               <p className="mycourse-text1 poppins">ReactJS</p>
               <p className="mycourse-text2">
                 ReactJS is a popular JavaScript library for building fast and
-                interactive user interfaces, mainly for web applications. It was
-                developed by Facebook.
+                interactive user interfaces.
               </p>
               <p className="mycourse-text2">
                 4.3 &nbsp;&nbsp;

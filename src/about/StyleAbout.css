@@ -7,7 +7,6 @@ body {
 .logo {
     font-size: 20px;
     color: #fcfbfb;
-    font-family: Unbounded;
     padding-left: 70px;
     line-height: 67px;
     color: #1C56ED;
@@ -78,7 +77,6 @@ body {
     font-weight: 645;
     margin-top: 100px;
     color: #1C56ED;
-    font-family: Unbounded;
 }
 
 #content-about .content-sub-heading-about{
@@ -114,9 +112,6 @@ body {
     text-decoration: none;
 }
 
-#content-about .data-sub-item1-about:hover{
-    color: red;
-}
 
 #content-about .data-item1-about{
     font-size: 45px;
@@ -177,7 +172,6 @@ body {
 
 #footer .footer-text1{
     font-size: 20px;
-    font-family: Unbounded;
     color: #fff;
 }
 

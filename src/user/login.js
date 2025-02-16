@@ -25,8 +25,8 @@ const Login = () => {
         <img src={Saly1} className="img-saly1" />
       </div>
       <div className="w-50 signup-form">
-        <h1 style={{ fontFamily: "Unbounded" }}>Sign in</h1>
-        <p style={{ fontFamily: "Unbounded", fontSize: 12 }}>
+        <h1>Sign in</h1>
+        <p style={{ fontSize: 12 }}>
           Don't have an account{" "}
           <Link to="/signup" style={{ textDecoration: "none" }}>
             Sign up

@@ -9,7 +9,6 @@ body {
 .logo {
     font-size: 20px;
     color: #fcfbfb;
-    font-family: Unbounded;
     padding-left: 70px;
     line-height: 67px;
     color: #1C56ED;
@@ -81,7 +80,6 @@ body {
     font-weight: 645;
     margin-top: 100px;
     color: #1C56ED;
-    font-family: Unbounded;
 }
 
 #content-course .content-sub-heading {
@@ -114,7 +112,7 @@ body {
 }
 
 #course-course .course-img {
-    width: 525px;
+    width: 100%;
     margin: auto;
     display: block;
     /* padding-top: 15px;
@@ -136,7 +134,7 @@ body {
 #course-course .btn {
     display: block;
     margin: auto;
-    width: 525px;
+    width: 100%;
     height: 40px;
     border-radius: 4px;
     border: 1px solid #FF6801;
@@ -168,7 +166,7 @@ body {
 }
 
 #mycourse-course .mycourse-img {
-    width: 525px;
+    width: 100%;
     display: block;
     margin: auto;
 }
@@ -188,7 +186,7 @@ body {
 #mycourse-course .btn {
     display: block;
     margin: auto;
-    width: 525px;
+    width: 100%;
     height: 40px;
     border-radius: 4px;
     border: 1px solid #FFC107;
@@ -207,7 +205,6 @@ body {
 
 #footer .footer-text1 {
     font-size: 20px;
-    font-family: Unbounded;
     color: #fff;
 }
 

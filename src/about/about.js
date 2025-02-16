@@ -52,7 +52,12 @@ const About = () => {
         <div className="mw-100 d-flex poppins">
           <div className="w-50">
             <div className="about-img">
-              <img src={AboutImg} width={750} height={400} />
+              <img
+                src={AboutImg}
+                width="90%"
+                style={{ paddingRight: 30 }}
+                height={400}
+              />
             </div>
           </div>
           <div className="w-50" style={{ marginRight: "60px" }}>
@@ -102,33 +107,25 @@ const About = () => {
           </div>
           <div className="data-item-about">
             <p className="data-item1-about">
-              <a href="#" className="data-sub-item1-about">
-                75%
-              </a>
+              <span className="data-sub-item1-about">75%</span>
             </p>
             <p className="data-item2-about">Total Success</p>
           </div>
           <div className="data-item-about">
             <p className="data-item1-about">
-              <a href="#" className="data-sub-item1-about">
-                35
-              </a>
+              <span className="data-sub-item1-about">35</span>
             </p>
             <p className="data-item2-about">Main questions</p>
           </div>
           <div className="data-item-about">
             <p className="data-item1-about">
-              <a href="#" className="data-sub-item1-about">
-                26
-              </a>
+              <span className="data-sub-item1-about">26</span>
             </p>
             <p className="data-item2-about">Chief experts</p>
           </div>
           <div className="data-item-about">
             <p className="data-item1-about">
-              <a href="#" className="data-sub-item1-about">
-                16
-              </a>
+              <span className="data-sub-item1-about">16</span>
             </p>
             <p className="data-item2-about">Years of experience</p>
           </div>
