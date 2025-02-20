@@ -92,7 +92,7 @@ const ExcerciseView = () => {
         <div className="d-flex">
           <div className="col-md-4">
             <p className="footer-text1">iSchool</p>
-            <p className="footer-text2">© 2023 iSchool</p>
+            <p className="footer-text2">© 2024 iSchool</p>
             <p className="footer-text2">Present by Nguyen Huu Hoa</p>
           </div>
           <div className="col-md-4 mw-100 d-flex">
