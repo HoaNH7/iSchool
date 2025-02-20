@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/iSchool/static/css/main.69391d3f.css",
-    "main.js": "/iSchool/static/js/main.ab227cb0.js",
+    "main.js": "/iSchool/static/js/main.d515e7e9.js",
     "static/js/488.1f28c428.chunk.js": "/iSchool/static/js/488.1f28c428.chunk.js",
     "static/media/Saly1.png": "/iSchool/static/media/Saly1.503a48dfc189475cff69.png",
     "static/media/Home.jpg": "/iSchool/static/media/Home.c77d057c84920b48203f.jpg",
@@ -28,11 +28,11 @@
     "static/media/fa-v4compatibility.woff2": "/iSchool/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/iSchool/index.html",
     "main.69391d3f.css.map": "/iSchool/static/css/main.69391d3f.css.map",
-    "main.ab227cb0.js.map": "/iSchool/static/js/main.ab227cb0.js.map",
+    "main.d515e7e9.js.map": "/iSchool/static/js/main.d515e7e9.js.map",
     "488.1f28c428.chunk.js.map": "/iSchool/static/js/488.1f28c428.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69391d3f.css",
-    "static/js/main.ab227cb0.js"
+    "static/js/main.d515e7e9.js"
   ]
 }
